@@ -1,30 +1,34 @@
 var friends = [{
-    name: "John Torpey",
-    photo: "https://static.pexels.com/photos/343717/pexels-photo-343717.jpeg",
+    name: "Ron Swanson",
+    photo: "https://images.pexels.com/photos/736716/pexels-photo-736716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     scores: [3, 1, 4, 4, 2, 4, 5, 2, 4, 2]
   }, {
-    name: "Laura Toner",
-    photo: "https://static.pexels.com/photos/206481/pexels-photo-206481.jpeg",
+    name: "Barbara Gordon",
+    photo: "https://images.pexels.com/photos/773371/pexels-photo-773371.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     scores: [2, 5, 3, 4, 5, 3, 1, 3, 2, 4]
   }, {
-    name: "Bob Merad",
-    photo: "https://static.pexels.com/photos/249760/pexels-photo-249760.jpeg",
+    name: "Percy Cox",
+    photo: "https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     scores: [4, 3, 3, 2, 1, 2, 5, 4, 2, 1]
   },{
-    name: "Amy Crosby",
-    photo: "https://static.pexels.com/photos/270308/pexels-photo-270308.jpeg",
+    name: "Rachael Dawes",
+    photo: "https://images.pexels.com/photos/712521/pexels-photo-712521.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     scores: [1, 2, 3, 3, 4, 1, 2, 5, 3, 3]
   }, {
-    name: "Chris Maclin",
-    photo: "https://static.pexels.com/photos/249757/pexels-photo-249757.jpeg",
+    name: "Greg House",
+    photo: "https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     scores: [5, 4, 5, 3, 2, 4, 2, 1, 3, 2]
   }, {
-    name: "Anna Schultz",
-    photo: "https://static.pexels.com/photos/388517/pexels-photo-388517.jpeg",
+    name: "Emma Swan",
+    photo: "https://images.pexels.com/photos/1037915/pexels-photo-1037915.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     scores: [2, 1, 1, 2, 5, 4, 3, 3, 1, 4]
   }, {
-    name: "Jack Waller",
-    photo: "https://static.pexels.com/photos/64385/pexels-photo-64385.jpeg",
+    name: "Jack Napier",
+    photo: "https://images.pexels.com/photos/450214/pexels-photo-450214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    scores: [2, 2, 1, 3, 4, 2, 5, 3, 3, 4]
+  }, {
+    name: "Sloane Peterson",
+    photo: "https://images.pexels.com/photos/814052/pexels-photo-814052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     scores: [2, 2, 1, 3, 4, 2, 5, 3, 3, 4]
   }];
   

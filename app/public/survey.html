@@ -190,7 +190,7 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                    <div class="caption" align="center">Your new bestie is ... </div>
+                    <div class="caption" align="center">Your new friend is ... </div>
                     <img src="" id="imagepreview" height=80% width=80%>
                     <div class="caption" id="caption" align="center"></div>
                 </div>
@@ -203,7 +203,7 @@
 <script type="text/javascript">
     $(document).ready(function() {
         $("#add-btn").on("click", function() {
-            //form validation
+            
             function validateForm() {
                 var isValid = true;
                 $('.validate').each(function() {
@@ -218,12 +218,12 @@
                 });
                 return isValid;
             }
-            //if everything is filled
+            
             if (validateForm() == true) {
-                //creates a new friend from the values submitted
+                
                 var newFriend = {
                     name: $('#name').val().trim(),
-                    profilePic: $('#photo').val().trim(),
+                    photo: $('#photo').val().trim(),
                     scores: [
                         $('#q1').val(),
                         $('#q2').val(),
@@ -237,18 +237,18 @@
                         $('#q10').val(),
                     ]
                 };
-                //Grabs current URL of website
+               
                 var currentURL = window.location.origin;
-                //AJAX posts the data to friends API.
+                
                 $.post(currentURL + "/api/friends", newFriend, function(data) {
-                    //Grab the result from the AJAX post so that the best match's name and photo are displayed.
+                    
                     $('#caption').text(data.name);
                     $('#imagepreview').attr('src', data.photo);
                     $('#imagemodal').modal('show');
                 });
-                // Show the modal with the best match
+                
                     $('.modal').modal();
-                //clear form after submission
+               
                 $('#name').val("");
                 $('#photo').val("");
                 $('#q1').val("");
@@ -264,7 +264,7 @@
             } else {
                 alert("Please fill out ALL fields before submitting survey!")
             }
-            // return false;
+            return false;
         });
     });
     </script>
