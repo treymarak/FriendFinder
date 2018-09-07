@@ -29,7 +29,7 @@ var friends = [{
   }, {
     name: "Sloane Peterson",
     photo: "https://images.pexels.com/photos/814052/pexels-photo-814052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    scores: [2, 2, 1, 3, 4, 2, 5, 3, 3, 4]
+    scores: [3, 4, 1, 5, 1, 2, 5, 4, 3, 1]
   }];
   
   module.exports = friends;

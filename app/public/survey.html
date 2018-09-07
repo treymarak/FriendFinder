@@ -206,12 +206,12 @@
             
             function validateForm() {
                 var isValid = true;
-                $('.validate').each(function() {
+                $('.form-control').each(function() {
                     if ($(this).val() === ''){
                         isValid = false;
                     }
                 });
-                $('.browser-default').each(function() {
+                $('.chosen-select').each(function() {
                     if ($(this).val() === ""){
                         isValid = false;
                     }
@@ -241,13 +241,15 @@
                 var currentURL = window.location.origin;
                 
                 $.post(currentURL + "/api/friends", newFriend, function(data) {
+                    console.log(currentURL);
+                    console.log(data)
                     
                     $('#caption').text(data.name);
                     $('#imagepreview').attr('src', data.photo);
                     $('#imagemodal').modal('show');
                 });
                 
-                    $('.modal').modal();
+                    $('.modal-body').modal();
                
                 $('#name').val("");
                 $('#photo').val("");
